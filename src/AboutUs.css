@@ -1,0 +1,16 @@
+.about-bg {
+    height: 85vh;
+    background: url("D:\redblox\sweet\public\pic\aboutsbgs.jpg") no-repeat center/cover;
+}
+
+.award {
+    background: url("D:\redblox\sweet\public\pic\w4.jpg") no-repeat center/cover fixed;
+}
+
+.paragraphs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}

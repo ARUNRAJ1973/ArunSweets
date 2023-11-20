@@ -1,0 +1,82 @@
+.login-title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 119, 255);
+}
+
+#log-form {
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 8px;
+    padding: 60px;
+    background-color: rgb(230, 244, 234);
+    box-shadow: 1px 1px 20px 1px black;
+}
+
+#Mainlog {
+    padding: 40px;
+    background: linear-gradient(to left, rgb(221, 226, 177), rgb(220, 244, 228));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error {
+    text-align: center;
+    color: rgb(231, 70, 70);
+    width: 100%;
+    font-weight: bold;
+}
+
+
+.separates input {
+    margin: 10px;
+    border: 1px solid rgb(181, 181, 181);
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: small;
+}
+
+#btns {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.forget-pass {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+
+#submit {
+    padding: 10px 30px;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    background: rgb(66, 66, 178);
+}
+
+.SignIn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    background: rgb(124, 41, 179);
+}
+
+.separates input::placeholder {
+    opacity: 1;
+    outline-style: none;
+    font-weight: 600;
+}
+
+input:focus {
+    outline-style: none;
+}

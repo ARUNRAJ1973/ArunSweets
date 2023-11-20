@@ -1,0 +1,64 @@
+.shop-bg {
+    height: 85vh;
+    background: url("D:/sweets/public/pic/homepg.jpg") no-repeat center/cover fixed; 
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    border: 5px solid #ff0000;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+
+
+.cards h5 {
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 7px;
+    text-align: center;
+}
+
+.product-image {
+    text-align: center;
+}
+
+.img>h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 150px;
+    color: rgb(65, 42, 86);
+    font-family: sans-serif;
+    text-shadow: 1px 2px 3px rgb(186, 161, 161);
+}
+
+.img>p {
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 35px;
+}
+
+.shopalls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: rgb(41, 0, 128);
+}

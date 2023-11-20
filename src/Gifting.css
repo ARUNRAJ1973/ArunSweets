@@ -1,0 +1,41 @@
+.gifting-bg {
+    height: 85vh;
+    background: url("D:/sweets/public/pic/gift2.jpg") no-repeat center/cover fixed; 
+}
+
+.giftimg {
+    text-align: center;
+    height: 150px;
+    width: 150%;
+    border-radius: 8px;
+}
+
+.juiceimg {
+    text-align: center;
+    height: 250px;
+    width: 250%;
+    border-radius: 8px;
+}
+
+
+.card {
+    padding: 30px;
+    background-color: rgb(203, 187, 147);
+    border-radius: 8px;
+}
+
+.cardShop {
+    padding: 30px;
+    background-color: rgb(202, 234, 232);
+    border-radius: 8px;
+}
+
+.card-title {
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold;
+}
+
+.giftwith {
+    width: 70%;
+}

@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#Mainpage {
+  padding: 40px;
+  background: linear-gradient(to left, rgb(221, 226, 177), rgb(220, 244, 228));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(purple, rgb(123, 79, 246));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#outter {
+  padding: 10px 40px 40px 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 1px 1px 20px 1px black;
+}
+
+.separate,
+.message {
+  margin-top: 10px;
+}
+
+#input {
+  width: 97%;
+}
+
+.separate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.error {
+  text-align: center;
+  color: rgb(231, 70, 70);
+  width: 100%;
+  font-weight: bold;
+}
+
+
+input {
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid rgb(9, 171, 225);
+  background-color: transparent;
+  width: 400px;
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+
+}
+
+.btns {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.submit {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(to left, purple, rgb(123, 79, 246));
+}
+
+::placeholder {
+  color: rgb(163, 163, 163);
+  opacity: 1;
+  outline-style: none;
+  font-weight: 600;
+}
+
+input:focus {
+  outline-style: none;
+}
+
+@media only screen and (max-width: 992px) {
+
+  #outter {
+    padding: 20px;
+  }
+
+  input {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 778px) {
+
+  input,
+  #input {
+    width: 400px;
+  }
+
+  .separate {
+    flex-direction: column;
+
+  }
+}
+
+@media only screen and (max-width: 550px)and (min-width: 150px) {
+
+  h2 {
+    font-size: smaller;
+  }
+
+  #outter {
+    width: 80%;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .input,
+  #input {
+    width: 100%;
+  }
+
+  .error {
+    font-size: xx-small;
+  }
+
+  ::placeholder {
+    font-weight: 400;
+  }
+
+}
+
+
+/* -------------------contact------------------------ */
+
+.infos>h2 {
+  font-size: large;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.Address {
+  border: 2px solid black;
+}
+
+.infos {
+  padding: 40px;
+  background-color: rgb(159, 184, 184);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contdetails {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}

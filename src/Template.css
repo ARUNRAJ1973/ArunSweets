@@ -1,0 +1,100 @@
+.shopname {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(248, 248, 248);
+    font-weight: bolder;
+}
+
+.shopname span {
+    font-size: small;
+}
+
+.shopname:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 3px rgb(195, 186, 186);
+}
+
+.slash {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: large;
+}
+
+.links {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(211, 24, 24);
+
+}
+
+.links:hover {
+    color: green;
+    font-weight: bolder;
+
+}
+
+.colhead {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 150px;
+    margin-left: 40px;
+    text-shadow: 2px 2px 10px black;
+}
+
+.colpara {
+    color: rgb(0, 21, 155);
+    text-shadow: 1px 1px 20px rgb(75, 75, 75);
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .colhead {
+        font-size: 20px;
+    }
+
+    .colpara {
+        font-size: 10px;
+    }
+}
+
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .links {
+        font-size: 10px;
+    }
+
+    .shopname {
+        margin-top: 5px;
+        font-size: 15px;
+
+    }
+
+    .shopname span {
+        font-size: 5px;
+    }
+
+    .navig button {
+        font-size: 12px;
+
+    }
+}

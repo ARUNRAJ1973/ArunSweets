@@ -1,0 +1,30 @@
+.brands-bg {
+    height: 85vh;
+    background: url("D:\sweets\public\pic\brandnew.png") no-repeat center/cover fixed;
+}
+
+.quotesone {
+    background-color: rgba(204, 125, 5, 0.823);
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: 20px;
+}
+
+.quotestwo {
+    color: rgba(190, 120, 16, 0.823);
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    padding: 20px;
+}
+
+.wedding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandsub {
+    width: 90%;
+    height: 90%;
+}
